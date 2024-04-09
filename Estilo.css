@@ -1,0 +1,112 @@
+.textos {
+    display: flex;
+    margin: 2em 4em 2em 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-style: ridge;
+    justify-content: center;
+    text-align: center;
+}
+
+.cont_contacto {
+    display: flex;
+    margin: 1em auto;
+    border-style: ridge;
+    border: 1em auto;
+    max-width: 80%;
+    height: 80vh;
+    text-align: center;
+}
+
+.cont_contacto iframe{width: 70%;}
+.cont_contacto form{width: 70%;}
+
+
+body {background-color: rgb(29, 29, 29)}
+
+p {font-size: 1em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1,h2,h3,h4 {font-size: 1.5em;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: bisque;
+}
+
+
+footer {color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+}
+
+.laestancia {
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0em;
+    margin-bottom: 5em;
+    padding: 0em;}
+
+.idioma {position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.3); /* Color de fondo semi-transparente */
+    width: 100%;
+    padding: 0.1em;
+    text-align: center;
+}
+
+/* nombre bodega */
+.nombre_bodega {position: relative;
+    font-family: "Freehand", cursive;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    font-size: 5em;
+    color: white;
+    position: absolute;
+  }
+
+
+footer {text-align: center;}
+
+label{
+    display: block;
+    font-size: 1em;
+    color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin: 1em;
+    text-align: left;
+    justify-content: center;
+}
+
+#Boton {color: black}
+
+input {display:block;
+    font-size: 1em;
+    color: black;
+    margin: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+}
+
+
+a {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: small;}
+
+/* creo animaciones */
+input[type=submit]:hover {background-color: rgb(238, 211, 60);}
+
+/* estilos links */
+a:link {
+    color: goldenrod;
+  }
+  a:visited {color: bisque}
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }

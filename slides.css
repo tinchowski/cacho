@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.cont_quienes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  max-width: 90%;
+}
+
+.cont_quienes .descr{
+  width: 50%;
+  color: white;
+  text-align: center;
+  margin: 1em;}
+
+.cont_quienes .campo-slideshow {margin: 5em; width: 70%; max-height: 80vh;}
+
+
+.cont_bodegas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  max-width: 90%;
+}
+
+.cont_bodegas .descr_bodega {
+  width: 50%;
+  color: white;
+  text-align: center;
+  margin: 1em;}
+
+.cont_bodegas .bodega-slideshow {margin: 5em; width: 70%; max-height: 80vh;}
+
+img {
+  width: 100%;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
